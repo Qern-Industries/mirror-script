@@ -96,3 +96,5 @@ rsync_cmd \
         "${target}"
 
 echo "Last sync was $(date -d @$(cat ${target}/lastsync))"
+curl https://mirror.osbeck.com/archlinux/lastsync
+
