@@ -15,4 +15,4 @@ echo "Update Complete"
 mkdir -p ~/cronlog/"${year}/${month}/${day}/${time}"/ || true
 touch ~/cronlog/"${year}/${month}/${day}/${time}"/log || true
 
-./sync.sh > ~/cronlog/"${year}/${month}/${day}/${time}"/log
+./sync.sh 2>&1 | tee -a  ~/cronlog/"${year}/${month}/${day}/${time}"/log
