@@ -27,10 +27,10 @@
 # lot of traffic.
 
 # Directory where the repo is stored locally. Example: /srv/repo
-target="/home/eile/mirror"
+target="/home/eile/Documents/Servers/archlinux-mirror/mirror"
 
 # Lockfile path
-lock="/home/eile/syncrepo.lck"
+lock="/home/eile/Documents/Servers/archlinux-mirror/syncrepo.lck"
 
 # If you want to limit the bandwidth used by rsync set this.
 # Use 0 to disable the limit.
