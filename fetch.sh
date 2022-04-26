@@ -12,7 +12,7 @@ echo "Update Start"
     git reset --hard origin/master
 echo "Update Complete"
 
-mkdir -p /home/eile/Documents/Servers/archlinux-mirror/cronlog/"${year}/${month}/${day}/${time}"/ || true
-touch /home/eile/Documents/Servers/archlinux-mirror/cronlog/"${year}/${month}/${day}/${time}"/log || true
+mkdir -p /var/www/archlinux-mirror/cronlog/"${year}/${month}/${day}/${time}"/ || true
+touch /var/www/archlinux-mirror/cronlog/"${year}/${month}/${day}/${time}"/log || true
 
-./sync.sh 2>&1 | tee -a  /home/eile/Documents/Servers/archlinux-mirror/cronlog/"${year}/${month}/${day}/${time}"/log
+./sync.sh 2>&1 | tee -a  /var/www/archlinux-mirror/cronlog/"${year}/${month}/${day}/${time}"/log
