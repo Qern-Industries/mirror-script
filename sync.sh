@@ -27,7 +27,7 @@
 # lot of traffic.
 
 # Directory where the repo is stored locally. Example: /srv/repo
-target="/home/eile/Documents/Servers/archlinux-mirror/mirror"
+target="/var/www/archlinux.qern-industries.pw"
 
 # Lockfile path
 lock="/home/eile/Documents/Servers/archlinux-mirror/syncrepo.lck"
