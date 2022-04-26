@@ -30,7 +30,7 @@
 target="/var/www/archlinux.qern-industries.pw"
 
 # Lockfile path
-lock="/home/eile/Documents/Servers/archlinux-mirror/syncrepo.lck"
+lock="/var/www/syncrepo.lck"
 
 # If you want to limit the bandwidth used by rsync set this.
 # Use 0 to disable the limit.
